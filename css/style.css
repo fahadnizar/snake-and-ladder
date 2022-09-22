@@ -1,0 +1,41 @@
+body {
+	overflow-y:hidden;
+	background-color: whitesmoke;
+	background-image:url(../Assets/wall.jpg); 
+	font-family: 'Brush Script MT', cursive;
+}
+
+.wall{
+	width:1366px;
+}
+.heading{
+	text-align:center;
+	font-size:30px;
+}
+
+/* This is a single-line comment */ 
+.butn{
+	background-color: transparent;
+	border: none;
+}
+.container {
+        margin: auto;
+        text-align: right;
+    }
+
+.dice {
+        text-align: center;
+        display: inline-block;
+        margin: 10px;
+    }
+
+img {
+        width: 100%;
+    }
+.Player1{
+	color:white;
+}
+.board{
+	width:500px;
+	margin-right:555px;
+}

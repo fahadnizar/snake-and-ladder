@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/jquery.min.js"></script>
     <link href="Assets/bootstrap.css" rel="stylesheet">
     <script src="Assets/bootstrap.js"></script>
     <link rel="stylesheet" href="css/style.css" />
@@ -11,18 +12,18 @@
     <link rel="shortcut icon" href="Assets/SL.png">
   </head>
   <body>
-    <h1 class="heading">Sanke&Ladder</h1>
-    
-     
-  
-
-    <div class="col py-3">
+	
+    	<h1 class="heading">Snake&Ladder</h1>
+    	<div class="col py-3">
           <div class="container-fluid mt-0">
             <div class="row">
-              <div class="col-sm-1 "></div>
+              <div class="col-sm-1 ">
+		<img src="Assets/liz2.gif" alt="board" class="lizard">
+		</div>
               <div class="col-sm-7 ">
 		<div id="playBox">
-       <table>
+		<img src="Assets/board.png" alt="board" class="board">
+       <table class="playbox2" >
            <tr>
                <td id="100" class="deepskyblue"></td>
                <td id="99" class="orange"></td>
@@ -145,9 +146,7 @@
            </tr>
        </table>
    </div>
-
-
-		</div>
+</div>
               <div class="col-sm-2 "> 
 		<div class="dice">
         	<p class="Player1">ROLL</p>

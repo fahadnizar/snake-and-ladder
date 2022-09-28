@@ -1,7 +1,7 @@
 body {
 	overflow-y:hidden;
 	background-color: whitesmoke;
-	background-image:url(../Assets/wall.jpg); 
+	background-image:url(../Assets/wall.jpg);
 	font-family: 'Brush Script MT', cursive;
 }
 
@@ -37,23 +37,29 @@ img {
 	color:white;
 }
 .board{
-	width:500px;
-	margin-right:555px;
+	position:absolute;
+	width: 585px;
+   	height: 550px;
+}
+.lizard{
+	position:absolute;
+	width:26px;
+	margin-bottom:5px;	
+}
+.winner{
+	position:absolute;
+	width:510px;
+	margin-bottom:5px;	
 }
 
+.container-fluid{
+	
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.playbox2{
+ 	 width: 572px;
+    	 height: 530px;
+}
 
 td{
     height: 51.8px;
@@ -64,30 +70,30 @@ td{
 
 #playBox{
     margin-left: 25%;
+    
 }
 .yellow{
-    background-color: antiquewhite;
-    opacity: 0.8;
+    background-color: ahotpink;
+    opacity: 1;
 }
 .violet{
-    background-color: #9d099d;
-    opacity: 0.8;
+    background-color: hotpink;
+    opacity: 1;
 }
 .green{
-    background-color: #42b542;
-    opacity: 0.8;
+    background-color: hotpink;
+    opacity: 1;
 }
 .deepskyblue{
-    background-color: deepskyblue;
-    opacity: 0.8;
+    background-color: hotpink;
+    opacity: 1;
 }
 .orange{
     background-color: orange;
-    opacity: 0.8;
-}
+    opacity:1;
 .pink{
     background-color: hotpink;
-    opacity: 0.8;
+    opacity: 1;
 }
 #l1{
     position: absolute;

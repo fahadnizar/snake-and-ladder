@@ -116,12 +116,7 @@
 	}
 	else if (sum==100){
 		sum=100;
-		$('#'+sum+"").append('<img src="Assets/pig2.gif" class="winner"/>');
-		
-		
-	}
-	else if (sum==100){
-		sum=100;
+		$(".dice").remove();
 		$('#'+sum+"").append('<img src="Assets/pig2.gif" class="winner"/>');
 		
 		
@@ -134,6 +129,7 @@
 	}
 	else if (sum==100){
 		sum=100;
+		$(".dice").remove();
 		$('#'+sum+"").append('<img src="Assets/pig2.gif" class="winner"/>');
 		
 		
@@ -226,14 +222,10 @@
 		
 		
 	}
+	
 	else if (sum2==100){
 		sum2=100;
-		$('#'+sum2+"").append('<img src="Assets/bird3.gif" class="winner"/>');
-		
-		
-	}
-	else if (sum2==100){
-		sum2=100;
+		$(".dice").remove();
 		$('#'+sum2+"").append('<img src="Assets/bird3.gif" class="winner"/>');
 		
 		
@@ -246,6 +238,7 @@
 	}
 	else if (sum2==100){
 		sum2=100;
+		$(".dice").remove();
 		$('#'+sum2+"").append('<img src="Assets/bird3.gif" class="winner"/>');
 		
 		

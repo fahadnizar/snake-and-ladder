@@ -34,13 +34,16 @@ body {
 img {
         width: 100%;
     }
-.Player1{
-	color:white;
+.roll{
+	color:yellow;
 }
 .board{
 	position:absolute;
 	width: 585px;
    	height: 550px;
+}
+.player1{
+	color:yellow;
 }
 .pig{
 	position:absolute;

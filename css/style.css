@@ -3,6 +3,7 @@ body {
 	background-color: whitesmoke;
 	background-image:url(../Assets/wall.jpg);
 	font-family: 'Brush Script MT', cursive;
+	background-repeat: no-repeat;
 }
 
 .wall{
@@ -41,10 +42,19 @@ img {
 	width: 585px;
    	height: 550px;
 }
-.lizard{
+.pig{
 	position:absolute;
 	width:26px;
 	margin-bottom:5px;	
+}
+.bird1{
+	position:absolute;
+	width:26px;
+	margin-bottom:5px;	
+}
+.bird{
+	margin-top:35px;
+	color:yellow;
 }
 .winner{
 	position:absolute;
